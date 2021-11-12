@@ -6,10 +6,10 @@ function domloaded() {
   ctx.fillStyle = color;
 
   const shape = [
-    { x: 0, y: 0 },
-    { x: 0, y: 500 },
-    { x: 500, y: 500 },
-    { x: 500, y: 0 }
+    { x: 0, y: 500},
+    { x: 500, y: 1000},
+    { x: 1000, y: 500},
+    { x: 500, y: 0},
   ];
 
   let point = {
