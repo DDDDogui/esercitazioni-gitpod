@@ -9,3 +9,6 @@ function buttonFunction() {
   
     ctx.fillRect(20, 20, 10, 10);
   }
+  function button2Function() {
+      
+  }
