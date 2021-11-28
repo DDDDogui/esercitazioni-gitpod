@@ -10,5 +10,5 @@ function animal2() {
     document.getElementById("firstButton").innerHTML = "Ecco le caratteristiche del secondo animale: " + animale2.species +", " + animale2.race +", con " + animale2.paws+ " zampe.";
 }
 function animal3() {
-    document.getElementById("firstButton").innerHTML = "Ecco le caratteristiche del terzo animale: " + animale3.species +", " + animale3.race +", con " + animale3.paws+ " zampe.";
+    document.getElementById("firstButton").innerHTML = "Ecco le caratteristiche del terzo animale: " + animale3["species"] +", " + animale3["race"] +", con " + animale3["paws"] + " zampe.";
 }
